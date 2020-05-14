@@ -159,6 +159,8 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		color: #4e4e4e;
+		font-weight: 600;
 	}
 
 	h4 {
@@ -2036,7 +2038,10 @@ input, select, textarea {
 		}
 
 /* Image */
-
+	img {
+		width: 100%;
+		height: auto;
+	}
 	.image {
 		border-radius: 0.35em;
 		border: 0;
@@ -2683,9 +2688,10 @@ input, select, textarea {
 
 	#main {
 		margin-left: 35%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		max-width: 57em;
+		padding: 4em 7em 4em 8em;
 		width: calc(100% - 35%);
+		position: relative;
 	}
 
 		#main > section {
