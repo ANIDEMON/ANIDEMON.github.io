@@ -32,7 +32,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+body::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	background-color: transparent;
+} 
 ol, ul {
 	list-style: none;
 }
